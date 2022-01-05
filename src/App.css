@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  font-family: "Courier New";
+  background-color: white;
+}
+
+.body {
+  min-height: 100%;
+  padding: 1rem 0 0;
+}
+
+.header {
+  background-color: #2A2F33;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 4rem;
+  color: white;
+}
+
+footer {
+  background-color: #B6E2D3;
+  background-color: #DAF7A6;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.sample-text-box {
+  border: 3px solid black;
+  width: 50%;
+  padding: 1.5rem 1rem;
+  margin: 3rem auto 0;
+  font-size: 2rem;
+  background-color: white;
+}
+
+.sample-text {
+  font-weight: bold;
+}
+
+/* User Input */
+.user-input {
+  margin: 2.25rem auto 1.5rem;
+}
+
+.user-input textarea {
+  border: 0;
+  border-bottom: 2px solid black;
+  width: 50%;
+  padding: 0;
+  font-size: 2.5rem;
+  overflow: hidden;
+  height: 4rem;
+}
+
+.user-input textarea:focus {
+  outline: none;
+}
+
+/* Stats */
+#stats-holder {
+  visibility: hidden;
+}
+
+#stats-holder button {
+  margin: 0.5rem 2rem;
+  padding: 1rem 1.5rem;
+  background-color: #EF7C8E;
+  color: white;
+  font-weight: bold;
+}
+
+/* Icons */
+.FaKeyboard {
+  height: 150px;
+  width: 150px;
+}
+
+ @media only screen and (max-width: 1424px) {
+
+   .sample-text-box {
+     margin: 2.5rem auto 0;
+     width: 70%;
+   }
+
+   .user-input {
+     margin: 3rem auto 1.5rem;
+   }
+
+   .user-input textarea {
+     margin: 1rem auto 1rem;
+     width: 65%;
+   }
+
+   #stats-holder button {
+     margin: 0.5rem 1.25rem;
+   }
+ }
