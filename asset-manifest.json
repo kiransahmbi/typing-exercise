@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/typing-exercise/static/css/main.6502b809.css",
+    "main.js": "/typing-exercise/static/js/main.059442e5.js",
+    "static/js/787.fbabfee9.chunk.js": "/typing-exercise/static/js/787.fbabfee9.chunk.js",
+    "index.html": "/typing-exercise/index.html",
+    "main.6502b809.css.map": "/typing-exercise/static/css/main.6502b809.css.map",
+    "main.059442e5.js.map": "/typing-exercise/static/js/main.059442e5.js.map",
+    "787.fbabfee9.chunk.js.map": "/typing-exercise/static/js/787.fbabfee9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6502b809.css",
+    "static/js/main.059442e5.js"
+  ]
+}
